@@ -1,0 +1,14 @@
+{
+  "type": "elmod:tabla_de_loot",
+  "conditions": [
+    {
+      "block": "minecraft:glass",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.35,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "elmod:gasolina"
+}

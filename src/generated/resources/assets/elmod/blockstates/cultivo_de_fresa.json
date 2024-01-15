@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "elmod:block/fresa_stage0"
+    },
+    "age=1": {
+      "model": "elmod:block/fresa_stage1"
+    },
+    "age=2": {
+      "model": "elmod:block/fresa_stage2"
+    },
+    "age=3": {
+      "model": "elmod:block/fresa_stage3"
+    },
+    "age=4": {
+      "model": "elmod:block/fresa_stage4"
+    },
+    "age=5": {
+      "model": "elmod:block/fresa_stage5"
+    }
+  }
+}

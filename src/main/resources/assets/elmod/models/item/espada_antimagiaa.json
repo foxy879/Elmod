@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "elmod:item/espada_antimagiaa_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "elmod:item/espada_antimagiaa_3d"
+
+    },
+    "ground": {
+      "parent": "elmod:item/espada_antimagiaa_3d"
+    },
+    "fixed": {
+      "parent": "elmod:item/espada_antimagiaa_3d"
+    }
+  }
+}

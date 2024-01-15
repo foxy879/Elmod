@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "elmod:block/placa_de_presion_comoestanmuchachos"
+    },
+    "powered=true": {
+      "model": "elmod:block/placa_de_presion_comoestanmuchachos_down"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bloque_de_zafiro": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "elmod:bloque_de_zafiro"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elmod:zafiro"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bloque_de_zafiro",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elmod:zafiro"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "bloque de minerales",
+  "ingredient": {
+    "item": "elmod:mineral_magico"
+  },
+  "result": "elmod:cristal_de_mana"
+}

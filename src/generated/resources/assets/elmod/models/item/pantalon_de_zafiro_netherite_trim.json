@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "elmod:item/pantalon_de_zafiro",
+    "layer1": "minecraft:trims/items/leggings_trim_netherite"
+  }
+}

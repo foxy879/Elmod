@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elmod:block/losa_comoestanmuchachos"
+    },
+    "type=double": {
+      "model": "elmod:block/bloque_comoestanmuchachos"
+    },
+    "type=top": {
+      "model": "elmod:block/losa_comoestanmuchachos_top"
+    }
+  }
+}

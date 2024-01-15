@@ -1,0 +1,61 @@
+{
+  "item.elmod.zafiro": "zafiro",
+  "item.elmod.soneda": "Soin Mistica",
+  "item.elmod.soro": "Soro",
+  "item.elmod.soiron": "Soiron",
+  "item.elmod.sodiante": "Sodiante",
+  "item.elmod.sobre": "Sobre",
+  "item.elmod.cristal_de_mana": "Cristal de mana",
+  "item.elmod.detector_de_metales": "Detector de metal",
+  "item.elmod.pastel": "Pastel",
+  "item.elmod.gasolina": "Gasolina",
+  "item.elmod.hongo_feo": "Hongo gediondo",
+  "item.elmod.sapphire_staff": "Me tienes mamao",
+
+  "item.elmod.casco_de_zafiro": "Casco de zafiro",
+  "item.elmod.pechera_de_zafiro": "Pechera de zafiro",
+  "item.elmod.pantalon_de_zafiro": "Pantalon de zafiro",
+  "item.elmod.botas_de_zafiro": "Botas de zafiro",
+
+
+
+
+  "item.elmod.semilla_de_fresa": "Semillas de fresa",
+  "item.elmod.melon": "Melon",
+
+
+
+
+  "item.elmod.espada_antimagiaa": "Espada antimagia",
+  "item.elmod.pico_magico": "Pico magica",
+  "item.elmod.hacha_magica": "Hacha magica",
+  "item.elmod.pala_magica": "Pala magica",
+  "item.elmod.hoz_magica": "Hoz magica",
+
+
+
+
+  "tooltip.elmod.detector_de_metales.tooltip": "este objeto puede encontrar metales debado de donde es usado",
+
+
+  "block.elmod.puerta_comoestanmuchachos": "Puerta de los muchachos",
+  "block.elmod.escaleras_comoestanmuchachos": "Escalera de los muchachos",
+  "block.elmod.losa_comoestanmuchachos": "Losa de los muchachos",
+  "block.elmod.trampilla_comoestanmuchachos": "Trampilla de los muchachos",
+  "block.elmod.boton_comoestanmuchachos": "Boton de los muchachos",
+  "block.elmod.cerca_comoestanmuchachos": "Cerca de los muchachos",
+  "block.elmod.muro_comoestanmuchachos": "Muro de los muchachos",
+  "block.elmod.puerta_de_la_cerca_comoestanmuchachos": "Puerta de cerca de los muchachos",
+  "block.elmod.placa_de_presion_comoestanmuchachos": "Placa de presion de los muchachos",
+
+
+
+  "block.elmod.bloque_de_zafiro": "Bloque de zafiro",
+  "block.elmod.bloque_comoestanmuchachos": "bloque de los muchachos",
+  "block.elmod.mineral_magico": "Mineral magico",
+  "block.elmod.bloque_musical": "Bloque musical",
+
+
+  "creativetab.insana": "objetos varios"
+
+}

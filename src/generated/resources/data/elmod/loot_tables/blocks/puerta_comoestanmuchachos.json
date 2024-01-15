@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "elmod:puerta_comoestanmuchachos",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "elmod:puerta_comoestanmuchachos"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "elmod:blocks/puerta_comoestanmuchachos"
+}

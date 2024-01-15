@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge/separate_transforms",
+  "base":{
+    "parent": "elmod:item/hongo_feo_3d"
+  },
+  "perspectives": {
+    "gui":{
+      "parent": "elmod:item/hongo_feo_2d"
+    },
+
+    "ground":{
+      "parent": "elmod:item/hongo_feo_2d"
+    },
+
+    "fixed":{
+      "parent": "elmod:item/hongo_feo_2d"
+
+     }
+   }
+}
+

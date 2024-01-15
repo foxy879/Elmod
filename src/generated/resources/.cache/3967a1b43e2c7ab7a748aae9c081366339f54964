@@ -1,0 +1,21 @@
+// 1.20.1	2023-12-19T18:50:06.6687019	Tags for minecraft:block mod id elmod
+3c3bd8a2f77b7cecf2bbce32f113df55ab187994 data/elmod/tags/blocks/detector_de_metales_variable.json
+de6161da5802bf1cd71f29ae1e09f6c6b5ac4c22 data/elmod/tags/blocks/necesita_herramienta_magica.json
+2e2ac40649bcd6325b244507f1670334d0a79a76 data/forge/tags/blocks/needs_netherite_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_wood_tool.json
+e8d23cf9e02c37c2937d34f874823831b532d550 data/minecraft/tags/blocks/buttons.json
+8ee1d15c324ac7d213eb38d850304fa91ade230d data/minecraft/tags/blocks/doors.json
+22704712ecdeae304c2fafb30c9abc07c26e378c data/minecraft/tags/blocks/fences.json
+c2182d35a8f8dd0b15c35205c504685b1b32ff09 data/minecraft/tags/blocks/fence_gates.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/hoe.json
+ca3cd857e99f0903a0bb61ed60cd86bf73945ef7 data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+2d753d29d495338a93388b521e934d32cf258bdf data/minecraft/tags/blocks/needs_iron_tool.json
+12097a39cce1fb24f92722bae7802a0fcdf0964d data/minecraft/tags/blocks/needs_stone_tool.json
+954d7d3dfbe667d56275c061954001457b02fe7b data/minecraft/tags/blocks/pressure_plates.json
+5129eee01a18b0e8d4553da3046fbfb4a49fb704 data/minecraft/tags/blocks/slabs.json
+2e2ac40649bcd6325b244507f1670334d0a79a76 data/minecraft/tags/blocks/stairs.json
+dddd489ebdf020fa28828b0c59ec2dec9c215951 data/minecraft/tags/blocks/trapdoors.json
+249f52b14cd117083ccd5132b75bdc6b90284538 data/minecraft/tags/blocks/walls.json

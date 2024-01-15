@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "elmod:item/sapphire_staff"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0.5, 0.5, 0.5 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+     }
+   }
+  }

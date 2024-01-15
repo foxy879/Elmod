@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "elmod:gasolina_from_creeper",
+    "elmod:soneda_from_cofres",
+    "elmod:gasolina_from_cristal",
+    "elmod:soneda_from_arena_sospechosa"
+  ],
+  "replace": false
+}

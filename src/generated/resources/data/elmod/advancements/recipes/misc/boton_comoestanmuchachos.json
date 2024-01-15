@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bloque_comoestanmuchachos": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "elmod:bloque_comoestanmuchachos"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elmod:boton_comoestanmuchachos"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bloque_comoestanmuchachos",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elmod:boton_comoestanmuchachos"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+// 1.20.1	2024-01-05T17:18:50.1214271	Global Loot Modifiers : elmod
+bad3c7337da924e9d3f1bca2bedde7461bb594c0 data/elmod/loot_modifiers/gasolina_from_creeper.json
+211cde91f566271f501848d25b2c3028bac59c56 data/elmod/loot_modifiers/gasolina_from_cristal.json
+5d4c2b71ac1ebde8c39002bc1698a2b005a754dd data/elmod/loot_modifiers/soneda_from_arena_sospechosa.json
+aa48b7a65a7881dd94df3808af1385b8aad50df8 data/elmod/loot_modifiers/soneda_from_cofres.json
+8855bc531ee8f9e50cf25a9a8d3bdc86ad01ac41 data/forge/loot_modifiers/global_loot_modifiers.json

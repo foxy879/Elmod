@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "elmod:bloque_comoestanmuchachos"
+    }
+  },
+  "pattern": [
+    "   ",
+    " S ",
+    "   "
+  ],
+  "result": {
+    "item": "elmod:boton_comoestanmuchachos"
+  },
+  "show_notification": true
+}
