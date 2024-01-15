@@ -55,6 +55,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BOTAS_DE_ZAFIRO.get());
                         pOutput.accept(ModItems.SEMILLA_DE_FRESA.get());
                         pOutput.accept(ModItems.MELON.get());
+                        pOutput.accept(ModItems.DURAZNO.get());
+                        pOutput.accept(ModBlocks.ROYER_BLOCKE.get());
+
+
 
 
 

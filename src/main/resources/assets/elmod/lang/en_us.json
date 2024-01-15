@@ -22,7 +22,7 @@
 
   "item.elmod.semilla_de_fresa": "Semillas de fresa",
   "item.elmod.melon": "Melon",
-
+  "item.elmod.durazno": "Durazno",
 
 
 
@@ -54,6 +54,10 @@
   "block.elmod.bloque_comoestanmuchachos": "bloque de los muchachos",
   "block.elmod.mineral_magico": "Mineral magico",
   "block.elmod.bloque_musical": "Bloque musical",
+  "block.elmod.royer_blocke": "Royer blocke",
+  
+
+
 
 
   "creativetab.insana": "objetos varios"

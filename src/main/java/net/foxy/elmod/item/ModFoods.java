@@ -10,6 +10,7 @@ public class ModFoods {
             .effect( () -> new MobEffectInstance(MobEffects.REGENERATION, 200),100).build();
     public static final FoodProperties MELON = new FoodProperties.Builder().nutrition(12840).saturationMod(73.0f)
             .effect( () -> new MobEffectInstance(MobEffects.REGENERATION, 200),100).build();
+    public static final FoodProperties DURAZNO = new FoodProperties.Builder().nutrition(456).saturationMod(15.0f)
+            .effect( () -> new MobEffectInstance(MobEffects.REGENERATION, 60),100).build();
 
-
-}
+    }

@@ -42,7 +42,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.PUERTA_DE_LA_CERCA_COMOTANMUCHACHOS.get())
                 .add(ModBlocks.MURO_COMOTANMUCHACHOS.get())
                 .add(ModBlocks.ESCALERAS_COMOTANMUCHACHOS.get())
-                .add(ModBlocks.BLOQUE_COMOTANMUCHACHOS.get());
+                .add(ModBlocks.ROYER_BLOCKE.get());
+
+
 
 
 

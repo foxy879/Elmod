@@ -60,6 +60,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SOIRON);
         simpleItem(ModItems.SEMILLA_DE_FRESA);
         simpleItem(ModItems.MELON);
+        simpleItem(ModItems.DURAZNO);
+
 
 
 

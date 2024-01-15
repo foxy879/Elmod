@@ -36,6 +36,7 @@ public class ModItems {
 
 
 
+
     //Objetos con funciones especiales
 
     public static final RegistryObject<Item> DETECTOR_DE_METALES =
@@ -48,6 +49,8 @@ public class ModItems {
             ITEMS.register("pastel",()-> new Item(new Item.Properties().food(ModFoods.PASTEL)));
     public static final RegistryObject<Item> MELON =
             ITEMS.register("melon",()-> new Item(new Item.Properties().food(ModFoods.MELON)));
+    public static final RegistryObject<Item> DURAZNO =
+            ITEMS.register("durazno",()-> new Item(new Item.Properties().food(ModFoods.DURAZNO)));
 
 
     //Objetos que tienen funciones de combustibles

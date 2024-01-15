@@ -82,6 +82,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CULTIVO_DE_FRESA = BLOCKS.register("cultivo_de_fresa",
             () -> new CultivoDeFresa(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
+    public static final RegistryObject<Block> ROYER_BLOCKE = registerBlock("royer_blocke",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.FIRE).sound(SoundType.NETHER_ORE)));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
@@ -99,3 +102,4 @@ public class ModBlocks {
         BLOCKS.register(eventBus);
     }
 }
+

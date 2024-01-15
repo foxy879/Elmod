@@ -35,6 +35,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.BLOQUE_MUSICAL);
 
+        blockWithItem(ModBlocks.ROYER_BLOCKE);
+
         //configuracion de las texturas de escaleras
 
 
