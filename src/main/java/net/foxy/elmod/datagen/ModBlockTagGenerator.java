@@ -59,6 +59,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
 
 
+
         //Estos son los bloques que pueden ser minados con una hoz
 
 
@@ -76,7 +77,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.MINERAL_MAGICO.get())
                 .add(ModBlocks.BLOQUE_DE_ZAFIRO.get());
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        .add(ModBlocks.ROYER_BLOCKE.get());
+
+
+
 
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)

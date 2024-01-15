@@ -39,6 +39,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BLOQUE_DE_ZAFIRO.get());
         this.dropSelf(ModBlocks.BLOQUE_MUSICAL.get());
         this.dropSelf(ModBlocks.BLOQUE_COMOTANMUCHACHOS.get());
+        this.dropSelf(ModBlocks.ROYER_BLOCKE.get());
 
 
         this.dropSelf(ModBlocks.BOTON_COMOTANMUCHACHOS.get());

@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-12T17:31:56.7890936	Block States: elmod
+// 1.20.1	2024-01-15T17:32:54.22768	Block States: elmod
 4d1bc57c27fff752596dd7ae7c7b5384fd17fa54 assets/elmod/blockstates/bloque_comoestanmuchachos.json
 65fcb86668448a0b17870c2482b8944c58178930 assets/elmod/blockstates/bloque_de_zafiro.json
 c2c4b36ea60142ecbfceb5c8f3e29937e04a174a assets/elmod/blockstates/bloque_musical.json
@@ -12,6 +12,7 @@ b99418038f863c022176fab66e777b428f065053 assets/elmod/blockstates/muro_comoestan
 7b69d5adba9072f4a50aa01e9817c53549a6c510 assets/elmod/blockstates/placa_de_presion_comoestanmuchachos.json
 a18144e6772ae6ce39ec5812dbdba7e9b1641720 assets/elmod/blockstates/puerta_comoestanmuchachos.json
 239c4b25ec84263287d31e94a7dc0f695e74004e assets/elmod/blockstates/puerta_de_la_cerca_comoestanmuchachos.json
+098d4bc8134c9b37878fde252d0708d7a9233fd3 assets/elmod/blockstates/royer_blocke.json
 3d44440b871daec39ec98b8a205eb1d0386f0eab assets/elmod/blockstates/trampilla_comoestanmuchachos.json
 dfa60dc8ef97e1f3b5900d7e73ccc43dd4cc733a assets/elmod/models/block/bloque_comoestanmuchachos.json
 fb2363762a621f033bca248e896eded6088c00a6 assets/elmod/models/block/bloque_de_zafiro.json
@@ -49,6 +50,7 @@ dbd02a335643bb6f7f479007ddfa37762a2f4680 assets/elmod/models/block/puerta_comoes
 79faf6c0bd716c253af623777b2121ab59f1539b assets/elmod/models/block/puerta_de_la_cerca_comoestanmuchachos_open.json
 3fc2e6aab1b56731d420b9fe8239ecd61e55eb2a assets/elmod/models/block/puerta_de_la_cerca_comoestanmuchachos_wall.json
 6c17146575330938c99e40c5635683374c073ebd assets/elmod/models/block/puerta_de_la_cerca_comoestanmuchachos_wall_open.json
+5650c7bee3053cdf27b6d104a8751eaa24a6332e assets/elmod/models/block/royer_blocke.json
 52474a97d0146b6353717cb429a61e4ce20551a6 assets/elmod/models/block/trampilla_comoestanmuchachos_bottom.json
 5291f1263acf2f45c689cf1df44ed66ea7b782fa assets/elmod/models/block/trampilla_comoestanmuchachos_open.json
 0709d5c3edb52ba86d34ea343894dfdc075f4488 assets/elmod/models/block/trampilla_comoestanmuchachos_top.json
@@ -56,3 +58,4 @@ dbd02a335643bb6f7f479007ddfa37762a2f4680 assets/elmod/models/block/puerta_comoes
 eb7551a1697599db1ad2dbd96e7e6d2d72318257 assets/elmod/models/item/bloque_de_zafiro.json
 660d5056f4ee589b429af743b7b80ee6ec07cfc0 assets/elmod/models/item/bloque_musical.json
 bc52386486cb2aa4560c3edc6290f3fa15d18bae assets/elmod/models/item/mineral_magico.json
+d85ba9a9da9c5eca959cc59d9ec7e89d23b7826c assets/elmod/models/item/royer_blocke.json

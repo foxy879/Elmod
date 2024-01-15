@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-14T14:03:53.6702616	Item Models: elmod
+// 1.20.1	2024-01-15T16:20:05.7912163	Item Models: elmod
 e9f2a414f7bba67abb733c0daa5d515835f34230 assets/elmod/models/item/botas_de_zafiro.json
 77c35498cffd20ba5fd0248a2c99794d948201a1 assets/elmod/models/item/botas_de_zafiro_amethyst_trim.json
 3522d4a0455119627633b8505b6fd2e6848c0b4d assets/elmod/models/item/botas_de_zafiro_copper_trim.json
@@ -25,6 +25,7 @@ df06d1f67464774dcf82f4bffa29222e70f80775 assets/elmod/models/item/casco_de_zafir
 7333b8857156c5007e16729958833a881687a23c assets/elmod/models/item/cerca_comoestanmuchachos.json
 8f7c9a3bfa4df70b9280b9aa3de7849c3a46643c assets/elmod/models/item/cristal_de_mana.json
 4bdb354c0b222a6bac0c507e334fbfe073a84218 assets/elmod/models/item/detector_de_metales.json
+feeae539e1d54d07511653091b0ae2904d162d6b assets/elmod/models/item/durazno.json
 2f07b7d074ea2f83e88ad862192980b9e3dbf9ad assets/elmod/models/item/escaleras_comoestanmuchachos.json
 8edf8962830026ef1bf192ff0e5dbfc608e346de assets/elmod/models/item/gasolina.json
 a9d1f13c52406c4b6775156c285f2a84d6c2c42e assets/elmod/models/item/hacha_magica.json
