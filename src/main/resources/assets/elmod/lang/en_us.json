@@ -21,8 +21,10 @@
 
 
   "item.elmod.semilla_de_fresa": "Semillas de fresa",
+  "item.elmod.semilla_de_maiz": "Semillas de maiz",
   "item.elmod.melon": "Melon",
   "item.elmod.durazno": "Durazno",
+  "item.elmod.maiz": "Maiz",
 
 
 
@@ -35,7 +37,7 @@
 
 
 
-  "tooltip.elmod.detector_de_metales.tooltip": "este objeto puede encontrar metales debado de donde es usado",
+  "tooltip.elmod.detector_de_metales.tooltip": "este objeto puede encontrar metales debajo de donde es usado",
 
 
   "block.elmod.puerta_comoestanmuchachos": "Puerta de los muchachos",

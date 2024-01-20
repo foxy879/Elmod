@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-15T16:20:05.7912163	Item Models: elmod
+// 1.20.1	2024-01-20T15:05:05.1038227	Item Models: elmod
 e9f2a414f7bba67abb733c0daa5d515835f34230 assets/elmod/models/item/botas_de_zafiro.json
 77c35498cffd20ba5fd0248a2c99794d948201a1 assets/elmod/models/item/botas_de_zafiro_amethyst_trim.json
 3522d4a0455119627633b8505b6fd2e6848c0b4d assets/elmod/models/item/botas_de_zafiro_copper_trim.json
@@ -31,6 +31,7 @@ feeae539e1d54d07511653091b0ae2904d162d6b assets/elmod/models/item/durazno.json
 a9d1f13c52406c4b6775156c285f2a84d6c2c42e assets/elmod/models/item/hacha_magica.json
 e054c84e3e0ccc91916b6eb6ea3d429b93b3f6ab assets/elmod/models/item/hoz_magica.json
 75ce1376f2392c389750ea87eb09600725e30e4a assets/elmod/models/item/losa_comoestanmuchachos.json
+64ab875017f8eabc28edf3a5b337a697327966f6 assets/elmod/models/item/maiz.json
 9da1b2bac82a8a4b5251985c38c28f3715e11bcb assets/elmod/models/item/melon.json
 ba8b37d14e76f57985f3b4212ff6bfd154fccb8e assets/elmod/models/item/muro_comoestanmuchachos.json
 3fd85bc569890f5a4dec6e95117023b909789e7f assets/elmod/models/item/pala_magica.json
@@ -62,6 +63,7 @@ f62ca8fe2d810fd1c4818eb3fde1f83a29871aaf assets/elmod/models/item/pechera_de_zaf
 08ab37ed81b6d257e531c9d2653996f11bca1ed2 assets/elmod/models/item/puerta_comoestanmuchachos.json
 6256403d9e46a29f2cc37507ca4e221f0b5c6c49 assets/elmod/models/item/puerta_de_la_cerca_comoestanmuchachos.json
 fb7faafed6770a235dd3f93fa252e44b3aba8182 assets/elmod/models/item/semilla_de_fresa.json
+901cf55dc753068355d2f4fd151b3aa312f2ba80 assets/elmod/models/item/semilla_de_maiz.json
 1f522074c5b3a9416312ba678a3f961cd97706e2 assets/elmod/models/item/sobre.json
 8c3428b6eb5953d9c27992b2bfa4240c5b98a911 assets/elmod/models/item/sodiante.json
 19aa16e39f872f5c75f976d723db89f34e233a02 assets/elmod/models/item/soiron.json

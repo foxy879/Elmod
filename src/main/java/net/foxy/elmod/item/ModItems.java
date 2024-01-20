@@ -51,6 +51,8 @@ public class ModItems {
             ITEMS.register("melon",()-> new Item(new Item.Properties().food(ModFoods.MELON)));
     public static final RegistryObject<Item> DURAZNO =
             ITEMS.register("durazno",()-> new Item(new Item.Properties().food(ModFoods.DURAZNO)));
+    public static final RegistryObject<Item> MAIZ =
+            ITEMS.register("maiz",()-> new Item(new Item.Properties().food(ModFoods.DURAZNO)));
 
 
     //Objetos que tienen funciones de combustibles
@@ -123,6 +125,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SEMILLA_DE_FRESA =
             ITEMS.register("semilla_de_fresa",()-> new ItemNameBlockItem(ModBlocks.CULTIVO_DE_FRESA.get(),new Item.Properties()));
+
+    public static final RegistryObject<Item> SEMILLA_DE_MAIZ =
+            ITEMS.register("semilla_de_maiz",()-> new ItemNameBlockItem(ModBlocks.CULTIVO_DE_MAIZ.get(),new Item.Properties()));
 
 
 

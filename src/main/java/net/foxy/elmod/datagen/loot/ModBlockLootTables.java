@@ -2,6 +2,7 @@ package net.foxy.elmod.datagen.loot;
 
 import net.foxy.elmod.block.ModBlocks;
 import net.foxy.elmod.block.custom.CultivoDeFresa;
+import net.foxy.elmod.block.custom.CultivoDeMaiz;
 import net.foxy.elmod.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -81,11 +82,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.CULTIVO_DE_FRESA.get(), createCropDrops(ModBlocks.CULTIVO_DE_FRESA.get(), ModItems.PASTEL.get() ,
             ModItems.SEMILLA_DE_FRESA.get(), lootitemcondition$builder));
 
+        LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.CULTIVO_DE_MAIZ.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CultivoDeMaiz.AGE, 7))
+                .or(LootItemBlockStatePropertyCondition
+                        .hasBlockStateProperties(ModBlocks.CULTIVO_DE_MAIZ.get())
+                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CultivoDeMaiz.AGE, 8)));
+
+
+        this.add(ModBlocks.CULTIVO_DE_MAIZ.get(), createCropDrops(ModBlocks.CULTIVO_DE_MAIZ.get(), ModItems.MAIZ.get(),
+                ModItems.SEMILLA_DE_MAIZ.get(), lootitemcondition$builder2));
 
     }
-
-
-
 
     protected LootTable.Builder createRedstoneLikeOreDrops(Block pBlock, Item item) {
         return createSilkTouchDispatchTable(pBlock,

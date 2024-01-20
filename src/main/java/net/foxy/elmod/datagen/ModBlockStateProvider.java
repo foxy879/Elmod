@@ -3,6 +3,7 @@ package net.foxy.elmod.datagen;
 import net.foxy.elmod.Elmod;
 import net.foxy.elmod.block.ModBlocks;
 import net.foxy.elmod.block.custom.CultivoDeFresa;
+import net.foxy.elmod.block.custom.CultivoDeMaiz;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
@@ -89,6 +90,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 
         makeStrawberryCrop((CropBlock) ModBlocks.CULTIVO_DE_FRESA.get(), "fresa_stage", "fresa_stage");
+        makeCornCrop(((CropBlock) ModBlocks.CULTIVO_DE_MAIZ.get()), "maiz_stage_", "maiz_stage_");
     }
 
 
@@ -102,6 +104,19 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CultivoDeFresa) block).getAgeProperty()),
                 new ResourceLocation(Elmod.MOD_ID, "block/" + textureName + state.getValue(((CultivoDeFresa) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+    public void makeCornCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> cornStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] cornStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CultivoDeMaiz) block).getAgeProperty()),
+                new ResourceLocation(Elmod.MOD_ID, "block/" + textureName + state.getValue(((CultivoDeMaiz) block).getAgeProperty()))).renderType("cutout"));
 
         return models;
     }

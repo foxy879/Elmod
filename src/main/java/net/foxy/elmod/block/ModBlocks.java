@@ -3,6 +3,7 @@ package net.foxy.elmod.block;
 import net.foxy.elmod.Elmod;
 import net.foxy.elmod.block.custom.Bloque_musical;
 import net.foxy.elmod.block.custom.CultivoDeFresa;
+import net.foxy.elmod.block.custom.CultivoDeMaiz;
 import net.foxy.elmod.item.ModItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -81,6 +82,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CULTIVO_DE_FRESA = BLOCKS.register("cultivo_de_fresa",
             () -> new CultivoDeFresa(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> CULTIVO_DE_MAIZ = BLOCKS.register("cultivo_de_maiz",
+            () -> new CultivoDeMaiz(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     public static final RegistryObject<Block> ROYER_BLOCKE = registerBlock("royer_blocke",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.FIRE).sound(SoundType.NETHER_ORE)));
