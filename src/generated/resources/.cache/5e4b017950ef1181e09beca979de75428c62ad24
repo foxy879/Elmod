@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-20T15:05:05.1063366	Block States: elmod
+// 1.20.1	2024-01-20T20:23:05.2732813	Block States: elmod
 4d1bc57c27fff752596dd7ae7c7b5384fd17fa54 assets/elmod/blockstates/bloque_comoestanmuchachos.json
 65fcb86668448a0b17870c2482b8944c58178930 assets/elmod/blockstates/bloque_de_zafiro.json
 c2c4b36ea60142ecbfceb5c8f3e29937e04a174a assets/elmod/blockstates/bloque_musical.json
@@ -7,6 +7,8 @@ c2c4b36ea60142ecbfceb5c8f3e29937e04a174a assets/elmod/blockstates/bloque_musical
 15dec1046b072d8a55faa4d59ec75d52420cda9d assets/elmod/blockstates/cultivo_de_fresa.json
 ad1fd788857ebc103d060d99a7dd4dcf34a5c5f5 assets/elmod/blockstates/cultivo_de_maiz.json
 cf5979af39507f8f6e1659373070cf2acd87ddcf assets/elmod/blockstates/escaleras_comoestanmuchachos.json
+0b12af82b43857fe00246a247493940d6200645d assets/elmod/blockstates/flor_de_loto.json
+eeb62e5ddc41c51b33b6bf283cb8fe2dfa57ed78 assets/elmod/blockstates/flor_de_loto_meseta.json
 7a054f2308a2380c87e2705d5e7353a1bc252224 assets/elmod/blockstates/losa_comoestanmuchachos.json
 25b66d84c62ec00e222ed70445029c605f2c5668 assets/elmod/blockstates/mineral_magico.json
 b99418038f863c022176fab66e777b428f065053 assets/elmod/blockstates/muro_comoestanmuchachos.json
@@ -25,6 +27,8 @@ bc457ce917430ca17ffc907636ce5879ce102c5f assets/elmod/models/block/cerca_comoest
 03389bbf58c97bd661b1758c7e9749622705d06a assets/elmod/models/block/escaleras_comoestanmuchachos.json
 a0c6ab93f10041f59f45c4b055faf76cb06803f4 assets/elmod/models/block/escaleras_comoestanmuchachos_inner.json
 184ad3b072c082313999bf9024fa75acef4b3b7e assets/elmod/models/block/escaleras_comoestanmuchachos_outer.json
+a5308ce7e12a3e90f8490c569d5f4d6c605b9d20 assets/elmod/models/block/flor_de_loto.json
+307da1e5260c4ffb2efe1101c7159040064fd8ea assets/elmod/models/block/flor_de_loto_meseta.json
 b559546609d26c1c30b3eab19be344e525b3ffbc assets/elmod/models/block/fresa_stage0.json
 534121f44346e05ed7c5cd8b0bdf089bfbb33ea9 assets/elmod/models/block/fresa_stage1.json
 f405a8a0cc700bcbfab2db0a28eba29cd1ddcc25 assets/elmod/models/block/fresa_stage2.json
@@ -67,5 +71,7 @@ dbd02a335643bb6f7f479007ddfa37762a2f4680 assets/elmod/models/block/puerta_comoes
 27b200b9dbd3f01a02d0144b3e10adb5041f5cbd assets/elmod/models/item/bloque_comoestanmuchachos.json
 eb7551a1697599db1ad2dbd96e7e6d2d72318257 assets/elmod/models/item/bloque_de_zafiro.json
 660d5056f4ee589b429af743b7b80ee6ec07cfc0 assets/elmod/models/item/bloque_musical.json
+40d1be3cb7559cabd0d5803876346babdbb94d72 assets/elmod/models/item/flor_de_loto.json
+63cd918607ac890a899ee0e5c123f4942c0a1494 assets/elmod/models/item/flor_de_loto_meseta.json
 bc52386486cb2aa4560c3edc6290f3fa15d18bae assets/elmod/models/item/mineral_magico.json
 d85ba9a9da9c5eca959cc59d9ec7e89d23b7826c assets/elmod/models/item/royer_blocke.json

@@ -69,6 +69,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.MINERAL_MAGICO.get(),
                 block -> createRedstoneLikeOreDrops(ModBlocks.MINERAL_MAGICO.get(), ModItems.CRISTAL_DE_MANA.get()));
 
+        //Loot tables de bloques que son flores y mesetas
+
+        this.dropSelf(ModBlocks.FLOR_DE_LOTO.get());
+        this.add(ModBlocks.FLOR_DE_LOTO_MESETA.get(), createPotFlowerItemTable(ModBlocks.FLOR_DE_LOTO.get()));
+
 
 
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition

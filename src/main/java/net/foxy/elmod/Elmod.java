@@ -5,8 +5,12 @@ import net.foxy.elmod.block.ModBlocks;
 import net.foxy.elmod.item.ModCreativeModTabs;
 import net.foxy.elmod.item.ModItems;
 import net.foxy.elmod.loot.ModLootModifiers;
+import net.foxy.elmod.villager.ModAldeanos;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -18,6 +22,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import static net.foxy.elmod.villager.ModAldeanos.VILLAGER_PROFESSIONS;
 
 @Mod(Elmod.MOD_ID)
 public class Elmod {
@@ -38,6 +44,10 @@ public class Elmod {
 
         ModLootModifiers.register(modEventBus);
 
+
+        ModAldeanos.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -47,6 +57,10 @@ public class Elmod {
 
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.FLOR_DE_LOTO.getId(), ModBlocks.FLOR_DE_LOTO_MESETA);
+
+        });
 
     }
 

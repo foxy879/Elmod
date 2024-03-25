@@ -99,13 +99,17 @@ public class ModItemModelProvider extends ItemModelProvider {
     trimmedArmorItem(ModItems.PANTALON_DE_ZAFIRO);
     trimmedArmorItem(ModItems.BOTAS_DE_ZAFIRO);
 
+    //flores
+        simpleBlockItemTexture(ModBlocks.FLOR_DE_LOTO);
+
+
 
 
 
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
-        final String MOD_ID = Elmod.MOD_ID; // Change this to your mod id
+        final String MOD_ID = Elmod.MOD_ID;
 
         if(itemRegistryObject.get() instanceof ArmorItem armorItem) {
             trimMaterials.entrySet().forEach(entry -> {
@@ -193,5 +197,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(Elmod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+    private ItemModelBuilder simpleBlockItemTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Elmod.MOD_ID,"block/" + item.getId().getPath()));
     }
 }

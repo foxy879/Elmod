@@ -59,6 +59,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ROYER_BLOCKE.get());
                         pOutput.accept(ModItems.MAIZ.get());
                         pOutput.accept(ModItems.SEMILLA_DE_MAIZ.get());
+                        pOutput.accept(ModBlocks.FLOR_DE_LOTO.get());
+
 
 
 

@@ -8,6 +8,7 @@ import net.foxy.elmod.item.ModItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -88,6 +89,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ROYER_BLOCKE = registerBlock("royer_blocke",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.FIRE).sound(SoundType.NETHER_ORE)));
+
+    public static final RegistryObject<Block> FLOR_DE_LOTO = registerBlock("flor_de_loto",
+            () -> new FlowerBlock(() -> MobEffects.REGENERATION, 20,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).sound(SoundType.FLOWERING_AZALEA).noCollission().noCollission()));
+
+    public static final RegistryObject<Block> FLOR_DE_LOTO_MESETA = BLOCKS.register("flor_de_loto_meseta",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.FLOR_DE_LOTO,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_FLOWERING_AZALEA).sound(SoundType.FLOWERING_AZALEA).noCollission()));
 
 
 

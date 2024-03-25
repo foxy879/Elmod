@@ -91,6 +91,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         makeStrawberryCrop((CropBlock) ModBlocks.CULTIVO_DE_FRESA.get(), "fresa_stage", "fresa_stage");
         makeCornCrop(((CropBlock) ModBlocks.CULTIVO_DE_MAIZ.get()), "maiz_stage_", "maiz_stage_");
+
+
+        // configuracion de texturas de una flor y una meseta con la flor
+        simpleBlockWithItem(ModBlocks.FLOR_DE_LOTO.get(), models().cross(blockTexture(ModBlocks.FLOR_DE_LOTO.get()).getPath(),
+                blockTexture(ModBlocks.FLOR_DE_LOTO.get())).renderType("cutout"));
+        simpleBlockWithItem(ModBlocks.FLOR_DE_LOTO_MESETA.get(), models().singleTexture("flor_de_loto_meseta", new ResourceLocation("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.FLOR_DE_LOTO.get())).renderType("cutout"));
     }
 
 

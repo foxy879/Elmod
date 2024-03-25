@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-20T15:05:05.1053877	Loot Tables
+// 1.20.1	2024-01-20T20:23:05.27228	Loot Tables
 fc7aeaab293487fa9f738d701160ace13c1bb3e8 data/elmod/loot_tables/blocks/bloque_comoestanmuchachos.json
 7bff6b17165b13ddd050bd77114550b6eb36de08 data/elmod/loot_tables/blocks/bloque_de_zafiro.json
 46b917ce41d62a87d36de966bdd847f5df89804f data/elmod/loot_tables/blocks/bloque_musical.json
@@ -7,6 +7,8 @@ a43e6ea12e37a23b607d19de1b1a5ae108128f39 data/elmod/loot_tables/blocks/cerca_com
 8cfd6c4ddbadefaf983cac77217bd043aa4fb4a3 data/elmod/loot_tables/blocks/cultivo_de_fresa.json
 8082943a5350f19acedb425ca1b867c56c897277 data/elmod/loot_tables/blocks/cultivo_de_maiz.json
 72b920586444b453103daa00134b192a9ca34bf7 data/elmod/loot_tables/blocks/escaleras_comoestanmuchachos.json
+ca96583c789ef789de9ed352aaea9c0113722911 data/elmod/loot_tables/blocks/flor_de_loto.json
+9df6837685fcd60b045db2fe4d54d30e7966aa23 data/elmod/loot_tables/blocks/flor_de_loto_meseta.json
 c9b4b4f4a683bed89651121cf3d9a5e0908dbef9 data/elmod/loot_tables/blocks/losa_comoestanmuchachos.json
 847136e0801632fed5624da9c6e018431d8988d9 data/elmod/loot_tables/blocks/mineral_magico.json
 3700ba993e36d459b2941aadb249a00cb366449c data/elmod/loot_tables/blocks/muro_comoestanmuchachos.json

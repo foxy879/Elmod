@@ -49,6 +49,8 @@
   "block.elmod.muro_comoestanmuchachos": "Muro de los muchachos",
   "block.elmod.puerta_de_la_cerca_comoestanmuchachos": "Puerta de cerca de los muchachos",
   "block.elmod.placa_de_presion_comoestanmuchachos": "Placa de presion de los muchachos",
+  "block.elmod.flor_de_loto": "Flor de loto",
+
 
 
 
@@ -57,6 +59,9 @@
   "block.elmod.mineral_magico": "Mineral magico",
   "block.elmod.bloque_musical": "Bloque musical",
   "block.elmod.royer_blocke": "Royer blocke",
+
+
+  "entity.minecraft.villager.elmod.djaldeano": "Dj aldeano",
   
 
 
